@@ -1,0 +1,52 @@
+.article-wrapper {
+    margin: 0em 15em 0em 15em;
+    display: flex;
+    flex-direction: column;
+}
+
+@media only screen and (max-width: 900px) {
+    .article-wrapper {
+      margin: 0em 1em 0em 1em;
+    }
+  }
+
+
+.article-image {
+    align-self: center;
+}
+
+.article-image img {
+    max-width: 100%;
+}
+
+.article-title {
+    margin: .2rem;
+}
+
+.article-info {
+    padding: .2rem;
+    margin: .2rem;
+    margin-bottom: 50px;
+}
+
+.article-profile-pic {
+    max-width: 4em;
+    border-radius: 50px;
+    margin-right: 7px;
+}
+
+.innerhtml {
+    margin: .2rem;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.innerhtml h2 {
+    margin-bottom: 10px;
+}
+
+.innerhtml img {
+    max-width: 100%;
+    display: block;
+    margin: auto;
+}
